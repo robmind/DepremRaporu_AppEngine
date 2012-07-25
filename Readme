@@ -1,0 +1,10 @@
+------------------------------------------------------
+Generate Deprem Raporu as Json with AppEngine support.
+------------------------------------------------------
+It produces details of earthquake information in and around Turkey.
+
+Last 100 eartquakes information
+http://depremraporu.appspot.com/submit?depremsize=100
+
+Last 1 year earthquake information
+http://depremraporu.appspot.com/submit?deprem=last1Year
