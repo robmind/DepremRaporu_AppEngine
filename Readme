@@ -3,6 +3,9 @@ Generate Deprem Raporu as Json with AppEngine support.
 ------------------------------------------------------
 It produces details of earthquake information in and around Turkey.
 
+These informations are fetched http://www.koeri.boun.edu.tr/scripts/lst6.asp 
+(KANDILLI OBSERVATORY AND EARTHQUAKE RESEARCH INSTITUTE)
+
 Last 100 eartquakes information
 http://depremraporu.appspot.com/submit?depremsize=100
 
