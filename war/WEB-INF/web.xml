@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+  
+  <!-- Servlets -->
+ 
+ <servlet>
+    <servlet-name>reportService</servlet-name>
+    <servlet-class>com.web.h3r3t1c.bugreport.server.ReportServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>reportService</servlet-name>
+    <url-pattern>/android_bug_report_server/report</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>submit</servlet-name>
+    <servlet-class>com.web.h3r3t1c.bugreport.server.SubmitServlet</servlet-class>
+
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>submit</servlet-name>
+    <url-pattern>/submit</url-pattern>
+  </servlet-mapping>
+  
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>Android_Bug_Report_Server.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>

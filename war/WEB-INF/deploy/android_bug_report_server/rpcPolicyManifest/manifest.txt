@@ -1,0 +1,3 @@
+# Module android_bug_report_server
+# RPC service class, partial path of RPC policy file
+com.web.h3r3t1c.bugreport.client.ReportService, FA9B9A8E0E068AC963F926B8A5747748.gwt.rpc

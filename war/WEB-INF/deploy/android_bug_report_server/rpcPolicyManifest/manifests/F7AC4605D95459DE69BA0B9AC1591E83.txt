@@ -1,0 +1,2 @@
+serviceClass: com.web.h3r3t1c.bugreport.client.ReportService
+path: FA9B9A8E0E068AC963F926B8A5747748.gwt.rpc
